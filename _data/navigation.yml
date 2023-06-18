@@ -1,0 +1,79 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.navigation[site.locale].nav.<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  nav:
+    - title: "자격증 정보 검색"
+      section: services
+    - title: "자격증 후보"
+      section: portfolio
+    - title: "정보"
+      section: about
+    - title: "타임라인"
+      section: timeline
+    - title: "개발팀"
+      section: team
+    - title: "추천테스트"
+      section: contact
+    - title: "Theme Source"
+      url: https://github.com/raviriley/agency-jekyll-theme/
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+# Spanish
+# -------
+es: &DEFAULT_ES
+  nav:
+    - title: "자격증 정보 검색"
+      section: servicios
+    - title: "자격증 후보"
+      section: portafolio
+    - title: "정보"
+      section: nosotros
+    - title: "타임라인"
+      section: cronologia
+    - title: "개발팀"
+      section: equipo
+    - title: "추천테스트"
+      section: contacto
+    - title: "Theme Source"
+      url: https://github.com/raviriley/agency-jekyll-theme/
+es-ES:
+  <<: *DEFAULT_ES
+es-CO:
+  <<: *DEFAULT_ES
+
+# Deutsch
+# -----------------
+de: &DEFAULT_DE
+  nav:
+    - title: "자격증 정보 검색"
+      section: Leistungen
+    - title: "자격증 후보"
+      section: Portfolio
+    - title: "타임라인"
+      section: Ueber
+    - title: "정보"
+      section: Geschichte
+    - title: "개발팀"
+      section: Team
+    - title: "추천테스트"
+      section: Kontakt
+    - title: "Theme Source"
+      url: https://github.com/raviriley/agency-jekyll-theme/
+de-DE:
+  <<: *DEFAULT_DE
